@@ -1,0 +1,505 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  background: #0f0f10;
+  font-family: "Poppins";
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  margin: 0 15vw;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.logo img {
+  transform: scale(1);
+  cursor: pointer;
+}
+
+.nav-right-section ul {
+  display: flex;
+}
+
+.nav-right-section ul li {
+  margin-right: 45px;
+  position: relative;
+}
+
+.nav-right-section ul li a {
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  position: relative;
+}
+
+/*--**--**--**--**--**--**--**--**--**--**--*/
+/* Animation bar for nav bar */
+/*--**--**--**--**--**--**--**--**--**--**--*/
+
+.nav-right-section ul li a::after {
+  content: "";
+  position: absolute;
+  background-color: #ff3c78;
+  height: 3px;
+  width: 0%;
+  left: 0;
+  bottom: -10px;
+  transition: all ease-in-out 0.3s;
+}
+
+.nav-right-section ul li a:hover::after {
+  width: 100%;
+}
+
+.nav-right-section {
+  display: flex;
+  align-items: center;
+}
+
+.shop-button {
+  background: #1e1e21;
+  border-radius: 8px;
+  font-weight: 300;
+  font-size: 15px;
+  padding: 10px 40px;
+  cursor: pointer;
+}
+
+/*--**--***--***--**--*/
+/*-** Main Section **-*/
+/*--**--***--***--**--*/
+
+.main-section {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  margin-top: 30px;
+}
+
+.main-img {
+  width: 230px;
+  position: relative;
+  top: -250px;
+  left: 70px;
+}
+
+.main {
+  margin-left: 180px;
+}
+
+.on-ear-img {
+  width: 330px;
+  margin-left: 26px;
+}
+
+.main h1 {
+  font-size: 46px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.main h4 {
+  font-size: 1rem;
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+
+.main p {
+  font-size: 0.75rem;
+  line-height: 25px;
+  color: #bdc0c2;
+  font-weight: 300px;
+  margin-bottom: 25px;
+}
+
+.shopping-bag-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #1e1e21;
+  border-radius: 8px;
+  width: fit-content;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+
+.shopping-bag-section img {
+  width: 15px;
+  background-color: transparent;
+}
+
+.shopping-bag-section p {
+  margin-bottom: 0;
+  color: white;
+  background-color: transparent;
+}
+
+.shopping-bag-section span {
+  color: white;
+  background-color: transparent;
+}
+
+/*--**--**--**--**--**--**--**--**--**--**--*/
+/* Designing the Social Media Logos  Section*/
+/*--**--**--**--**--**--**--**--**--**--**--*/
+
+.social-media-logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 50px;
+  position: relative;
+  top: -70px;
+  cursor: pointer;
+}
+
+.social-media-logos img {
+  scale: 0.8;
+}
+
+/*-**--**--**--**--**--**--**--**--**-*/
+/* Designing the Specification Section */
+/*-**--**--**--**--**--**--**--**--**-*/
+
+.specification-banner {
+  display: flex;
+  justify-content: center;
+}
+
+.specification-banner img {
+  margin-top: 15px;
+  scale: 0.8;
+}
+
+.specification {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+/* Specification-Left-Section */
+
+.specification-left-section {
+  flex-direction: column;
+}
+
+.specification-left-section img {
+  scale: 0.8;
+}
+
+.specification-left-section p {
+  line-height: 20px;
+  font-size: 12px;
+}
+
+.specification-left-section p:last-child {
+  color: #bdc0c2;
+  font-size: 10px;
+}
+
+.connection,
+.microphone {
+  margin: 0px 0px 20px 30px;
+}
+
+.battery,
+.load {
+  margin: 0px 0px 20px 0px;
+}
+
+/* Specification-Right-Section*/
+
+.specification-right-section {
+  margin-left: 15%;
+}
+
+.specification-right-section img {
+  scale: 0.9;
+}
+
+/*-**--**--**--**--**--**--**--**--**-*/
+/* Designing the Case Section */
+/*-**--**--**--**--**--**--**--**--**-*/
+
+.case-banner,
+.case-main-section {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0px 30px 0px;
+}
+
+.case-banner img {
+  margin-top: 50px;
+  scale: 0.8;
+}
+
+.case-image img {
+  scale: 0.8;
+}
+
+.specs {
+  margin: 110px 0 0 30px;
+}
+
+.specs p {
+  color: #bdc0c2;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.specs p img {
+  background-color: transparent;
+  transform: scale(0.8);
+}
+
+.specs p:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  background-color: #1e1e21;
+  gap: 15px;
+  padding: 10px 20px;
+  margin-top: 25px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+/*-**--**--**--**--**--**--**--**--**-*/
+/* Designing the Buy-Now Section */
+/*-**--**--**--**--**--**--**--**--**-*/
+
+.buy-product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #181a1b;
+  border-radius: 12px;
+  gap: 50px;
+  margin-top: 60px;
+  padding: 40px 0px;
+  width: 100%;
+}
+
+.buy-product * {
+  background-color: transparent;
+}
+
+.buy-product img {
+  transform: scale(1);
+}
+
+.buy-product div h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.buy-product div p {
+  font-size: 0.88rem;
+  color: #bdc0c2;
+  margin-bottom: 15px;
+}
+
+.buy-product div div {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  background-color: #000000;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.buy-product div div img {
+  transform: scale(0.8);
+}
+
+.buy-product div div p {
+  margin: 0;
+  font-size: 0.75rem;
+  color: white;
+}
+
+/*-**--**--**--**--**--**--**--**--**-*/
+/*Designing Choose Your Style Section*/
+/*-**--**--**--**--**--**--**--**--**-*/
+
+.product {
+  margin: 30px 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0px 90px 0px;
+}
+
+.product-logo img {
+  transform: scale(0.7);
+}
+
+.product-items {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  padding-left: 50px;
+}
+
+.product-card {
+  position: relative;
+  height: 160px;
+  width: 155px;
+  background-color: #181a1b;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.product-img {
+  position: absolute;
+  height: 100px;
+  width: 75px;
+  top: -40px;
+  left: 28px;
+}
+
+.product-card img,
+p,
+span,
+div {
+  background-color: transparent;
+}
+
+.product-info {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 10px 15px;
+  background-color: #181a1b;
+  border-radius: 0 0 8px 8px;
+}
+
+.product-info p {
+  font-size: 0.75rem;
+  color: #ffffff;
+  margin: 0;
+}
+
+.product-info p span {
+  color: #bdc0c2;
+}
+
+.product-info div {
+  padding: 2px 6px;
+}
+
+.product-info div img {
+  transform: scale(0.7);
+}
+
+/*-**--**--**--**--**--**--**--**--**-*/
+/* Designing the Footer Section */
+/*-**--**--**--**--**--**--**--**--**-*/
+
+footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 120px 0px ;
+  position: relative;
+  gap: 120px;
+}
+
+.footer-logo {
+  transform: scale(1);
+  margin: -80px 0px 0px 0px;
+}
+
+footer ul li a {
+  font-size: 0.9rem;
+  gap: 10px;
+  color: #bdc0c2;
+}
+
+.header {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0px 0px 10px 0px;
+}
+
+.footer-subscription {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.footer-subscription div:first-child {
+  display: flex;
+  border-radius: 8px;
+  background-color: #181a1b;
+  padding: 7px 10px 7px 10px;
+  margin: -18px 0px 0px 0px;
+}
+
+.footer-subscription div input {
+  border: none;
+  background-color: transparent;
+}
+
+.footer-subscription div :last-child button {
+  background: #0a0a0b;
+  border-radius: 8px;
+  border: none;
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.footer-subscription div button i {
+  padding-right: 20px;
+  background-color: transparent;
+}
+
+.footer-subscription div :last-child button:hover{
+  background-color: #040406;
+}
+
+.social-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10% 45% 0% 0%;
+  gap: 25px;
+}
+
+.upper-button img{
+display: flex;
+margin: 0px 0px 90px 50px;
+}
