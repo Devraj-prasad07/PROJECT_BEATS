@@ -1,6 +1,7 @@
 Beats.in Website
 Welcome to the Beats.in GitHub repository! This repository contains the source code for the Beats.in website, an online platform showcasing and selling premium headphones. Below, you'll find information about the project structure, technologies used, and how to contribute.
 
+LIVE LINK FOR THE WEBPAGE : https://b-e-a-t-s.netlify.app
 
 Table of Contents
 1.Introduction
